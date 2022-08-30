@@ -1,0 +1,46 @@
+
+.top-header{
+    /*border-bottom: 1px solid rgb(175, 175, 175);
+    display: grid;
+    grid-template-columns: 100px 150px 80px 70px 140px 160px 110px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;*/
+}
+.division-nav-login{
+    display: flex;
+}
+.nav-name-grid{
+    border-bottom: 1px solid rgb(175, 175, 175);
+    display: grid;
+    grid-template-columns: 100px 150px 80px 70px 140px 160px 110px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.name-and-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 10px;
+    vertical-align: middle;
+}
+
+.adobe-logo{
+    height: 20px;
+
+}
+
+.name-adobe-logo{
+    color: red;
+    font-weight: 600;
+    font-size: 12pt;
+    
+}
+#box-in-header{
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+}
+.nav-name{
+    padding: 20px 10px;
+    font-size: 10pt;
+}
