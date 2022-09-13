@@ -3,8 +3,8 @@
     position: relative;
     right: 0;
     left: 0;
-    height: 700px;
-    top: 110px;
+    height: 710px;
+    top: 100px;
 }
 .grid-first-div{
     display: flex;
@@ -28,10 +28,10 @@
     justify-content: center;
     background-color: #23a6d5;
     position: relative;
-    top: 110px;
+    top: 100px;
     left: 0;
     right: 0;
-    height: 161px;
+
 }
 .creative-cloud-ad img{
     height: 135px;

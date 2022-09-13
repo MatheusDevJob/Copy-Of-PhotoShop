@@ -1,0 +1,28 @@
+.descubra-titulo h2{
+    display: grid;
+    font-size: 24pt;
+    justify-content: center;
+}
+.descubra-titulo p{
+    font-size: 14pt;
+    font-weight: 500;
+    display: grid;
+    justify-content: center;
+    margin: 0;
+}
+.descubra-titulo a{
+    display: grid;
+    justify-content: center;
+    color: rgb(32, 32, 224);
+    padding: 20px;
+    font-weight: 500;
+}.descubra-titulo a:hover{
+    text-decoration: underline;
+}
+.descubra-img{
+    display: grid;
+    justify-content: center;
+}
+.filtros-neurais{
+    
+}

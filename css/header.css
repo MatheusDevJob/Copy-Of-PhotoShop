@@ -1,0 +1,122 @@
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(209, 209, 209);
+}
+.nav-name-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 200px;
+    margin: 0;
+}
+.top-header{
+    font-size: 10pt;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.name-and-logo{
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    padding: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.adobe-logo{
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.name-adobe-logo{
+    color: red;
+    font-weight: 600;
+    font-size: 13pt;
+}
+#box-in-header{
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    transition: background-color 0,5s;
+}
+#box-in-header:hover{
+    background-color: rgb(243, 243, 243);
+    color: black;
+}
+.nav-name{
+    padding: 20px;
+    transition: color 0,9s;
+    list-style-type: none;
+}
+.nav-name:hover{
+    color: rgb(0, 119, 255);
+}
+.nav-name img{
+    height: 10px;
+}
+
+.free-test{
+    list-style-type: none;
+    background-color: rgb(31, 105, 218);
+    padding: 7px 16px 8px 16px;
+    border-radius: 20px;
+    font-size: 10pt;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 2px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+.rec-nav, .as-nav{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: rgb(243, 243, 243);
+    line-height: 20px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.nav-name:hover > .rec-nav, .nav-name:hover > .as-nav{
+    display: block;
+    color: black;
+}
+#ps{
+    border-bottom: 2px solid black;    
+}
+.ps{
+    font-weight: bolder;
+    height: 15px;
+}
+.lupa-icon{
+    height: 20px;
+}
+
+.nav-logon-grid{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    column-gap: 20px;
+    padding-right: 200px;
+    align-items: center;
+}
+.nav-logon-grid:hover{
+    color: rgb(0, 119, 255);
+}
+
+.bottom-header{
+    font-size: 8pt;
+    display: flex;
+    padding: 2px 0 2px 208px;
+    column-gap: 15px;
+    list-style: none;
+    color: gray;
+}
+.adobe-ps-titulo{
+    color: black;
+}

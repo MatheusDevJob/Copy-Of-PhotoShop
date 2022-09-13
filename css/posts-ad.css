@@ -1,0 +1,69 @@
+.titulo-crie-tudo{
+    display: block;
+    height: 400px;
+    position: relative;
+    top: 100px;
+}
+.titulo-crie-tudo h2{
+    display: grid;
+    justify-content: center;
+    font-size: 24pt;
+    color: rgb(41, 41, 41);
+    margin-bottom: 0;
+}
+.titulo-crie-tudo p{
+    display: flex;
+    justify-content: center;
+    font-size: 13pt;
+    font-weight: 500;
+}
+
+
+
+
+.ps-ads{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+
+.designer-job{
+    margin-right: 50px;
+    height: 400px;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    justify-content: center;    
+}
+    .perfil-pic-img{
+        height: 120px;
+    }
+
+    .titulo-designer{
+        font-size: 16pt;
+        width: 400px;
+        color: rgb(53, 53, 53);
+    }
+    .titulo-designer h2{
+        margin-bottom: 0;
+    }
+    .paragrafo-designer{
+        margin-top: 0;
+        width: 440px;
+    }
+    .teste-agora{
+        background-color: rgb(26, 89, 224);
+        color: white;
+        font-weight: 600;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        border-radius: 35px;
+        cursor: pointer;
+        font-size: 11pt;
+        padding: 8px;
+        margin-bottom: 100px;
+    }

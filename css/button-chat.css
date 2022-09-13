@@ -1,0 +1,13 @@
+/*.button-chat div{
+    position: fixed;
+    height: 200px;
+    background-color: white;
+    right: 0;
+    top: 500px;
+}*/
+.button-chat{
+    position: fixed;
+    height: 60px;
+    right: 40px;
+    filter: invert(100%);
+}
