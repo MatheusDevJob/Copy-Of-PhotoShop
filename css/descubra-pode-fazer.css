@@ -1,3 +1,6 @@
+.descubra-pode-fazer{
+    background-color: rgb(159, 224, 233);
+}
 .descubra-titulo h2{
     display: grid;
     font-size: 24pt;
@@ -23,6 +26,39 @@
     display: grid;
     justify-content: center;
 }
-.filtros-neurais{
-    
+.filtros-neurais-titulo h2{
+    display: flex;
+    font-size: 16pt;
+    font-weight: 500;
+    justify-content: center;
+}
+.filtros-neurais-titulo a{
+    color: black;
+    margin-left: 3px;
+    text-decoration: underline;
+}
+.filtros-neurais-titulo p{
+    display: grid;
+    grid-template-columns: 750px;
+    justify-content: center;
+    text-align: center;
+}
+.grid-filtros-elements{
+    display: grid;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+    grid-template-columns: 480px 400px;
+}
+
+.selec-cliques-img img{
+    height: 275px;
+    width: 481px;
+    object-fit: cover;
+}
+.selec-cliques-info h2{
+    margin-bottom: 0;
+}
+.selec-cliques-info p{
+    margin-top: 12px;
 }
