@@ -1,0 +1,67 @@
+.plano-creative-cloud{
+    background-color: black;
+}
+.titulo-creative-cloud{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14pt;
+}
+.flex-planos-creative-cloud{
+    display: flex;
+    justify-content: center;
+}
+.top-plano-creative-cloud{
+    border-bottom: 1px solid rgb(218, 218, 218);
+    height: 330px;
+}
+.info-plano-creative-cloud {
+    color: rgb(37, 37, 37);
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.escolha-seu-plano-creative-cloud{
+    width: 236px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px 0 20px;
+    height: 400px;
+    margin-right: 25px;
+}
+.titulo-plano-creative-cloud{
+    font-size: 14pt;
+    font-weight: bolder;
+}
+.valor-plano-creative-cloud{
+    font-size: 12pt;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+.saiba-mais{
+    color: rgb(65, 113, 243);
+    font-weight: 500;
+}
+.compre-agora-creative-cloud{
+    display: flex;
+    justify-content: end;
+}
+.compre-agora-creative-cloud a{
+    color: white;
+    background-color: rgb(50, 115, 255);
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.compre-telefone{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.compre-telefone a{
+    color: white;
+    text-decoration: underline;
+}
